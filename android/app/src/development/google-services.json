@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "108628680113",
+    "firebase_url": "https://directv-ecareapp-dev.firebaseio.com",
+    "project_id": "directv-ecareapp-dev",
+    "storage_bucket": "directv-ecareapp-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108628680113:android:c9594aee3fb54e8502f190",
+        "android_client_info": {
+          "package_name": "com.directv.dtvlatam.ecare.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108628680113-q3ntponub0umi1oo526sq5bbv2a3g4mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwHMWmvXSBMmAD3wNf1HxGS82BD8DhwS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108628680113-q3ntponub0umi1oo526sq5bbv2a3g4mt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "108628680113-70ajs85v85vui3vs03in9it4vd4pgjqk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.directv.dtvlatam.ecare.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

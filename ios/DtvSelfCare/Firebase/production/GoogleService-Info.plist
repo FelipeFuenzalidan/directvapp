@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>CLIENT_ID</key>
+		<string>734608433439-c6tc7tm3behlk67qk6ekikc0rcj97qdt.apps.googleusercontent.com</string>
+		<key>REVERSED_CLIENT_ID</key>
+		<string>com.googleusercontent.apps.734608433439-c6tc7tm3behlk67qk6ekikc0rcj97qdt</string>
+		<key>API_KEY</key>
+		<string>AIzaSyCEkMb_t5Qk3JWZCtcB8SVAMhY82Cci_js</string>
+		<key>GCM_SENDER_ID</key>
+		<string>734608433439</string>
+		<key>PLIST_VERSION</key>
+		<string>1</string>
+		<key>BUNDLE_ID</key>
+		<string>ar.com.directvla.ecare</string>
+		<key>PROJECT_ID</key>
+		<string>directv-ecareapp-prod</string>
+		<key>STORAGE_BUCKET</key>
+		<string>directv-ecareapp-prod.appspot.com</string>
+		<key>IS_ADS_ENABLED</key>
+		<false></false>
+		<key>IS_ANALYTICS_ENABLED</key>
+		<false></false>
+		<key>IS_APPINVITE_ENABLED</key>
+		<true></true>
+		<key>IS_GCM_ENABLED</key>
+		<true></true>
+		<key>IS_SIGNIN_ENABLED</key>
+		<true></true>
+		<key>GOOGLE_APP_ID</key>
+		<string>1:734608433439:ios:8315f03711d23d8e67102a</string>
+		<key>DATABASE_URL</key>
+		<string>https://directv-ecareapp-prod.firebaseio.com</string>
+	</dict>
+</plist>

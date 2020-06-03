@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "722540673452",
+    "firebase_url": "https://dtv-selfcare-mvp-test.firebaseio.com",
+    "project_id": "dtv-selfcare-mvp-test",
+    "storage_bucket": "dtv-selfcare-mvp-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722540673452:android:d3797bfa689144b4232209",
+        "android_client_info": {
+          "package_name": "com.dtvselfcare.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722540673452-s4qdm43l0po00pq821uqnr5rdtjfblvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJBzrDeY9ZA-FusvayDwBLMLwKUV9yOAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722540673452-s4qdm43l0po00pq821uqnr5rdtjfblvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

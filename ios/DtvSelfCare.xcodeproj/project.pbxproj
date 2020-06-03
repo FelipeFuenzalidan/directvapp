@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077658C9341F4F7FABB8CACB /* dtcurve-bold-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 202367310D1D452B9B90AE66 /* dtcurve-bold-italic.otf */; };
+		0A13DC71A3DC4D769AF11FF7 /* palanquin-extralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F727E6390D48F0AD3887A9 /* palanquin-extralight.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2675F1CA350E48A08C1A64A0 /* dtvcurve-ultra-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E36DFD107004666B57D04DE /* dtvcurve-ultra-italic.otf */; };
+		404EB9C0BDAD410BA9D99F39 /* dtvcurve-ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80AA1AAD7AD44A11A8D00D3D /* dtvcurve-ultra.otf */; };
+		46DFC4369D8D42D9B1ED943C /* palanquin-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4AE82698E534BEF9418EE1E /* palanquin-light.ttf */; };
+		48A0014DADE842388026FE77 /* dtvcurve-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 24188DC8BFF24282BFCEB5C0 /* dtvcurve-medium.otf */; };
+		518307240E074CB9B29F3F83 /* dtvcurve-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22C758A8F1844681B62A713B /* dtvcurve-regular.otf */; };
+		57347E2AF0074336993E3750 /* palanquindark-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2955B114B24542E884658F9D /* palanquindark-bold.ttf */; };
+		59137CAF56794A27A30DF0DC /* dtvcurve-light-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7712AAC5B2F47E09F73FF74 /* dtvcurve-light-italic.otf */; };
+		70FDCC0A242F40208A28CCDA /* dtvcurve-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 730B9A54985D4DE79E5608B6 /* dtvcurve-light.otf */; };
+		76B7267C592E416C97AC3BAA /* palanquin-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5495E7F851AC40619B6876E6 /* palanquin-bold.ttf */; };
+		77E9F03D1C0446F08FB33E81 /* palanquin-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6B2A9D6CA8C4F3E8906A51E /* palanquin-regular.ttf */; };
+		808AFAD9023C51A85925A84C /* libPods-DtvSelfCare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF2CF39B2D068080F2AD886 /* libPods-DtvSelfCare.a */; };
+		8706CC32FF2C4C79B2E2F567 /* palanquindark-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C96F5CB9B5C470FA12FE10D /* palanquindark-regular.ttf */; };
+		8830120A619D4EF484BC8A01 /* dtvcurve-regular-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35779EDB058D491DBA2988FD /* dtvcurve-regular-italic.otf */; };
+		9CDDC2FB076848CEA2505852 /* dtvcurve-black-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 085F248B1C7D4839B2A31308 /* dtvcurve-black-italic.otf */; };
+		ADE4A32A79FC49309201A03C /* palanquin-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 710D5F3245634552A463FDC8 /* palanquin-thin.ttf */; };
+		B3C8FB634B634BF283F10FCB /* dtvcurve-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 55940775ACB34AADACADCD28 /* dtvcurve-bold.otf */; };
+		BF00BDC569D8404DA90D6869 /* dtvcurve-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D3042A6A65442B199D7F8CA /* dtvcurve-black.otf */; };
+		CD7F4833C2DD438E82032F3C /* palanquin-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D21399830C9146D59CB7543B /* palanquin-semibold.ttf */; };
+		D27CE55F240EAB4B00CA644E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D27CE55E240EAB4B00CA644E /* GoogleService-Info.plist */; };
+		D27CE5B424118B7000CA644E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27CE5B324118B7000CA644E /* CoreData.framework */; };
+		D27CE5B624118B7800CA644E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27CE5B524118B7700CA644E /* CoreLocation.framework */; };
+		D27CE5B824118B8100CA644E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D27CE5B724118B8100CA644E /* libsqlite3.0.tbd */; };
+		D27CE5BA24118B8700CA644E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27CE5B924118B8700CA644E /* Security.framework */; };
+		D27CE5BC24118B9100CA644E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27CE5BB24118B9100CA644E /* SystemConfiguration.framework */; };
+		D27CE5BE24118C4300CA644E /* OMC.plist in Resources */ = {isa = PBXBuildFile; fileRef = D27CE5BD24118C4300CA644E /* OMC.plist */; };
+		D2D65FB1245067DD005BBC37 /* envs.local.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D2D65FB0245067DD005BBC37 /* envs.local.xcconfig */; };
+		D435C9DD686C4ED2AE1CB2E8 /* palanquin-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C51CF35685FB487D88CE134C /* palanquin-medium.ttf */; };
+		E1C2FAE6835F4FFF921CDF16 /* dtvcurve-medium-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE63850DC1BD48D8BE97B9B6 /* dtvcurve-medium-italic.otf */; };
+		EDE2AB56EA9D4113A0AD6FA1 /* palanquindark-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59EBB2F28361446E92773792 /* palanquindark-semibold.ttf */; };
+		EFCE388D742B4051A4ADDCBE /* palanquindark-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E482754ADBC14A1CB88D4281 /* palanquindark-medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* DtvSelfCareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DtvSelfCareTests.m; sourceTree = "<group>"; };
+		085F248B1C7D4839B2A31308 /* dtvcurve-black-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-black-italic.otf"; path = "../assets/fonts/dtvcurve-black-italic.otf"; sourceTree = "<group>"; };
+		0D3042A6A65442B199D7F8CA /* dtvcurve-black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-black.otf"; path = "../assets/fonts/dtvcurve-black.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* DtvSelfCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DtvSelfCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DtvSelfCare/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DtvSelfCare/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DtvSelfCare/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DtvSelfCare/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DtvSelfCare/main.m; sourceTree = "<group>"; };
+		202367310D1D452B9B90AE66 /* dtcurve-bold-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtcurve-bold-italic.otf"; path = "../assets/fonts/dtcurve-bold-italic.otf"; sourceTree = "<group>"; };
+		22C758A8F1844681B62A713B /* dtvcurve-regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-regular.otf"; path = "../assets/fonts/dtvcurve-regular.otf"; sourceTree = "<group>"; };
+		24188DC8BFF24282BFCEB5C0 /* dtvcurve-medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-medium.otf"; path = "../assets/fonts/dtvcurve-medium.otf"; sourceTree = "<group>"; };
+		2955B114B24542E884658F9D /* palanquindark-bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquindark-bold.ttf"; path = "../assets/fonts/palanquindark-bold.ttf"; sourceTree = "<group>"; };
+		35779EDB058D491DBA2988FD /* dtvcurve-regular-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-regular-italic.otf"; path = "../assets/fonts/dtvcurve-regular-italic.otf"; sourceTree = "<group>"; };
+		5495E7F851AC40619B6876E6 /* palanquin-bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquin-bold.ttf"; path = "../assets/fonts/palanquin-bold.ttf"; sourceTree = "<group>"; };
+		55940775ACB34AADACADCD28 /* dtvcurve-bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-bold.otf"; path = "../assets/fonts/dtvcurve-bold.otf"; sourceTree = "<group>"; };
+		58795E535BD78CFE2EAFC3EF /* Pods-DtvSelfCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DtvSelfCare.debug.xcconfig"; path = "Target Support Files/Pods-DtvSelfCare/Pods-DtvSelfCare.debug.xcconfig"; sourceTree = "<group>"; };
+		59EBB2F28361446E92773792 /* palanquindark-semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquindark-semibold.ttf"; path = "../assets/fonts/palanquindark-semibold.ttf"; sourceTree = "<group>"; };
+		5A467D9E7E64C008AF2EB0B6 /* libPods-DtvSelfCare-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DtvSelfCare-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710D5F3245634552A463FDC8 /* palanquin-thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquin-thin.ttf"; path = "../assets/fonts/palanquin-thin.ttf"; sourceTree = "<group>"; };
+		730B9A54985D4DE79E5608B6 /* dtvcurve-light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-light.otf"; path = "../assets/fonts/dtvcurve-light.otf"; sourceTree = "<group>"; };
+		80AA1AAD7AD44A11A8D00D3D /* dtvcurve-ultra.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-ultra.otf"; path = "../assets/fonts/dtvcurve-ultra.otf"; sourceTree = "<group>"; };
+		8E36DFD107004666B57D04DE /* dtvcurve-ultra-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-ultra-italic.otf"; path = "../assets/fonts/dtvcurve-ultra-italic.otf"; sourceTree = "<group>"; };
+		90F813E9CE0D4875AE87D42E /* libPods-DtvSelfCare-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DtvSelfCare-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C96F5CB9B5C470FA12FE10D /* palanquindark-regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquindark-regular.ttf"; path = "../assets/fonts/palanquindark-regular.ttf"; sourceTree = "<group>"; };
+		A0F727E6390D48F0AD3887A9 /* palanquin-extralight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquin-extralight.ttf"; path = "../assets/fonts/palanquin-extralight.ttf"; sourceTree = "<group>"; };
+		AE63850DC1BD48D8BE97B9B6 /* dtvcurve-medium-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-medium-italic.otf"; path = "../assets/fonts/dtvcurve-medium-italic.otf"; sourceTree = "<group>"; };
+		B4AE82698E534BEF9418EE1E /* palanquin-light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquin-light.ttf"; path = "../assets/fonts/palanquin-light.ttf"; sourceTree = "<group>"; };
+		B7712AAC5B2F47E09F73FF74 /* dtvcurve-light-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "dtvcurve-light-italic.otf"; path = "../assets/fonts/dtvcurve-light-italic.otf"; sourceTree = "<group>"; };
+		C51CF35685FB487D88CE134C /* palanquin-medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquin-medium.ttf"; path = "../assets/fonts/palanquin-medium.ttf"; sourceTree = "<group>"; };
+		C6B2A9D6CA8C4F3E8906A51E /* palanquin-regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquin-regular.ttf"; path = "../assets/fonts/palanquin-regular.ttf"; sourceTree = "<group>"; };
+		CCF2CF39B2D068080F2AD886 /* libPods-DtvSelfCare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DtvSelfCare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21399830C9146D59CB7543B /* palanquin-semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquin-semibold.ttf"; path = "../assets/fonts/palanquin-semibold.ttf"; sourceTree = "<group>"; };
+		D27CE55E240EAB4B00CA644E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "DtvSelfCare/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D27CE560240ED39600CA644E /* DtvSelfCare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = DtvSelfCare.entitlements; path = DtvSelfCare/DtvSelfCare.entitlements; sourceTree = "<group>"; };
+		D27CE5B324118B7000CA644E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D27CE5B524118B7700CA644E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D27CE5B724118B8100CA644E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		D27CE5B924118B8700CA644E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D27CE5BB24118B9100CA644E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D27CE5BD24118C4300CA644E /* OMC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OMC.plist; sourceTree = "<group>"; };
+		D2D65FB0245067DD005BBC37 /* envs.local.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = envs.local.xcconfig; path = DtvSelfCare/envs.local.xcconfig; sourceTree = "<group>"; };
+		D907D3A4CD71EC663F97FAE8 /* Pods-DtvSelfCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DtvSelfCare.release.xcconfig"; path = "Target Support Files/Pods-DtvSelfCare/Pods-DtvSelfCare.release.xcconfig"; sourceTree = "<group>"; };
+		E482754ADBC14A1CB88D4281 /* palanquindark-medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "palanquindark-medium.ttf"; path = "../assets/fonts/palanquindark-medium.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808AFAD9023C51A85925A84C /* libPods-DtvSelfCare.a in Frameworks */,
+				D27CE5BC24118B9100CA644E /* SystemConfiguration.framework in Frameworks */,
+				D27CE5BA24118B8700CA644E /* Security.framework in Frameworks */,
+				D27CE5B824118B8100CA644E /* libsqlite3.0.tbd in Frameworks */,
+				D27CE5B624118B7800CA644E /* CoreLocation.framework in Frameworks */,
+				D27CE5B424118B7000CA644E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* DtvSelfCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* DtvSelfCareTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = DtvSelfCareTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* DtvSelfCare */ = {
+			isa = PBXGroup;
+			children = (
+				D2D65FB0245067DD005BBC37 /* envs.local.xcconfig */,
+				D27CE560240ED39600CA644E /* DtvSelfCare.entitlements */,
+				D27CE55E240EAB4B00CA644E /* GoogleService-Info.plist */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				D27CE5BD24118C4300CA644E /* OMC.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = DtvSelfCare;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D27CE5BB24118B9100CA644E /* SystemConfiguration.framework */,
+				D27CE5B924118B8700CA644E /* Security.framework */,
+				D27CE5B724118B8100CA644E /* libsqlite3.0.tbd */,
+				D27CE5B524118B7700CA644E /* CoreLocation.framework */,
+				D27CE5B324118B7000CA644E /* CoreData.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				CCF2CF39B2D068080F2AD886 /* libPods-DtvSelfCare.a */,
+				5A467D9E7E64C008AF2EB0B6 /* libPods-DtvSelfCare-tvOS.a */,
+				90F813E9CE0D4875AE87D42E /* libPods-DtvSelfCare-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37B854EE6309CFA49F49A5AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58795E535BD78CFE2EAFC3EF /* Pods-DtvSelfCare.debug.xcconfig */,
+				D907D3A4CD71EC663F97FAE8 /* Pods-DtvSelfCare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52A9A8D694AB4C04A10CBAB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				202367310D1D452B9B90AE66 /* dtcurve-bold-italic.otf */,
+				085F248B1C7D4839B2A31308 /* dtvcurve-black-italic.otf */,
+				0D3042A6A65442B199D7F8CA /* dtvcurve-black.otf */,
+				55940775ACB34AADACADCD28 /* dtvcurve-bold.otf */,
+				B7712AAC5B2F47E09F73FF74 /* dtvcurve-light-italic.otf */,
+				730B9A54985D4DE79E5608B6 /* dtvcurve-light.otf */,
+				AE63850DC1BD48D8BE97B9B6 /* dtvcurve-medium-italic.otf */,
+				24188DC8BFF24282BFCEB5C0 /* dtvcurve-medium.otf */,
+				35779EDB058D491DBA2988FD /* dtvcurve-regular-italic.otf */,
+				22C758A8F1844681B62A713B /* dtvcurve-regular.otf */,
+				8E36DFD107004666B57D04DE /* dtvcurve-ultra-italic.otf */,
+				80AA1AAD7AD44A11A8D00D3D /* dtvcurve-ultra.otf */,
+				5495E7F851AC40619B6876E6 /* palanquin-bold.ttf */,
+				A0F727E6390D48F0AD3887A9 /* palanquin-extralight.ttf */,
+				B4AE82698E534BEF9418EE1E /* palanquin-light.ttf */,
+				C51CF35685FB487D88CE134C /* palanquin-medium.ttf */,
+				C6B2A9D6CA8C4F3E8906A51E /* palanquin-regular.ttf */,
+				D21399830C9146D59CB7543B /* palanquin-semibold.ttf */,
+				710D5F3245634552A463FDC8 /* palanquin-thin.ttf */,
+				2955B114B24542E884658F9D /* palanquindark-bold.ttf */,
+				E482754ADBC14A1CB88D4281 /* palanquindark-medium.ttf */,
+				9C96F5CB9B5C470FA12FE10D /* palanquindark-regular.ttf */,
+				59EBB2F28361446E92773792 /* palanquindark-semibold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* DtvSelfCare */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* DtvSelfCareTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				37B854EE6309CFA49F49A5AB /* Pods */,
+				52A9A8D694AB4C04A10CBAB9 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* DtvSelfCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* DtvSelfCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DtvSelfCare" */;
+			buildPhases = (
+				49C44CF166273DCDA36D3A80 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				D2D65FA8244FC27B005BBC37 /* Setup Firebase and OMH configuration files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DtvSelfCare;
+			productName = DtvSelfCare;
+			productReference = 13B07F961A680F5B00A75B9A /* DtvSelfCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 6P3J7247YU;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DtvSelfCare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* DtvSelfCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				077658C9341F4F7FABB8CACB /* dtcurve-bold-italic.otf in Resources */,
+				9CDDC2FB076848CEA2505852 /* dtvcurve-black-italic.otf in Resources */,
+				BF00BDC569D8404DA90D6869 /* dtvcurve-black.otf in Resources */,
+				B3C8FB634B634BF283F10FCB /* dtvcurve-bold.otf in Resources */,
+				59137CAF56794A27A30DF0DC /* dtvcurve-light-italic.otf in Resources */,
+				70FDCC0A242F40208A28CCDA /* dtvcurve-light.otf in Resources */,
+				E1C2FAE6835F4FFF921CDF16 /* dtvcurve-medium-italic.otf in Resources */,
+				48A0014DADE842388026FE77 /* dtvcurve-medium.otf in Resources */,
+				8830120A619D4EF484BC8A01 /* dtvcurve-regular-italic.otf in Resources */,
+				518307240E074CB9B29F3F83 /* dtvcurve-regular.otf in Resources */,
+				2675F1CA350E48A08C1A64A0 /* dtvcurve-ultra-italic.otf in Resources */,
+				D27CE55F240EAB4B00CA644E /* GoogleService-Info.plist in Resources */,
+				404EB9C0BDAD410BA9D99F39 /* dtvcurve-ultra.otf in Resources */,
+				76B7267C592E416C97AC3BAA /* palanquin-bold.ttf in Resources */,
+				0A13DC71A3DC4D769AF11FF7 /* palanquin-extralight.ttf in Resources */,
+				46DFC4369D8D42D9B1ED943C /* palanquin-light.ttf in Resources */,
+				D435C9DD686C4ED2AE1CB2E8 /* palanquin-medium.ttf in Resources */,
+				77E9F03D1C0446F08FB33E81 /* palanquin-regular.ttf in Resources */,
+				CD7F4833C2DD438E82032F3C /* palanquin-semibold.ttf in Resources */,
+				D27CE5BE24118C4300CA644E /* OMC.plist in Resources */,
+				D2D65FB1245067DD005BBC37 /* envs.local.xcconfig in Resources */,
+				ADE4A32A79FC49309201A03C /* palanquin-thin.ttf in Resources */,
+				57347E2AF0074336993E3750 /* palanquindark-bold.ttf in Resources */,
+				EFCE388D742B4051A4ADDCBE /* palanquindark-medium.ttf in Resources */,
+				8706CC32FF2C4C79B2E2F567 /* palanquindark-regular.ttf in Resources */,
+				EDE2AB56EA9D4113A0AD6FA1 /* palanquindark-semibold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		49C44CF166273DCDA36D3A80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DtvSelfCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D65FA8244FC27B005BBC37 /* Setup Firebase and OMH configuration files */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase and OMH configuration files";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -x\nFIREBASE_FILE=\"${PROJECT_DIR}\"/DtvSelfCare/Firebase/\"${BUILD_ENV}\"/GoogleService-Info.plist\nOMH_FILE=\"${PROJECT_DIR}\"/DtvSelfCare/OMH/\"${BUILD_ENV}\"/OMC.plist\n\necho \"Copying Firebase config file from $FIREBASE_FILE\"\ncp $FIREBASE_FILE \"${PROJECT_DIR}\"/DtvSelfCare\n\necho \"Copying OMH config file from $OMH_FILE\"\ncp $OMH_FILE \"${PROJECT_DIR}\"\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = DtvSelfCare;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58795E535BD78CFE2EAFC3EF /* Pods-DtvSelfCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DtvSelfCare/DtvSelfCare.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 6P3J7247YU;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalyticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstallations\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNLocalize\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"$(PROJECT_DIR)/oracle_mobile_ios_sdk/release-iphoneos/include/**",
+				);
+				INFOPLIST_FILE = DtvSelfCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/oracle_mobile_ios_sdk/release-iphoneos/**",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = DtvSelfCare;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D907D3A4CD71EC663F97FAE8 /* Pods-DtvSelfCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DtvSelfCare/DtvSelfCare.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQQCGM4657;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalyticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstallations\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNLocalize\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"$(PROJECT_DIR)/oracle_mobile_ios_sdk/release-iphoneos/include/**",
+				);
+				INFOPLIST_FILE = DtvSelfCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/oracle_mobile_ios_sdk/release-iphoneos/**",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtvselfcare.uat;
+				PRODUCT_NAME = DtvSelfCare;
+				PROVISIONING_PROFILE_SPECIFIER = "$(PROVISIONING_PROFILE_SPECIFIER)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D65FB0245067DD005BBC37 /* envs.local.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DtvSelfCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DtvSelfCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

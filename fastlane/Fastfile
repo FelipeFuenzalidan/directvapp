@@ -1,0 +1,119 @@
+import "./Helpers.rb"
+
+# ************************
+#  Common Variables
+# ************************
+
+developer_portal_team_id = 'YQQCGM4657' 
+
+itunes_connect_team_id = '1729430' 
+itunes_connect_team_name = 'DIRECTV LATIN AMERICA,  LLC' 
+
+ios_scheme = 'DtvSelfCare'
+ios_xcodeproj = './ios/DtvSelfCare.xcodeproj'
+ios_workspace = './ios/DtvSelfCare.xcworkspace'
+podfile = './ios/Podfile'
+
+# ************************
+#  Development Variables
+# ************************
+
+IOS_CONFIG_DEVELOPMENT = {
+  :ios_scheme => ios_scheme,
+  :ios_xcodeproj => ios_xcodeproj,
+  :ios_workspace => ios_workspace,
+  :ios_xcconfig => './ios/DtvSelfCare/envs.development.xcconfig',
+  :ios_bundle_id => 'com.directv.dtvlatam.ecare.dev',
+  :developer_portal_team_id => developer_portal_team_id,
+  :itunes_connect_team_id => itunes_connect_team_id,
+  :itunes_connect_team_name => itunes_connect_team_name,
+  :provisioning_profile_specifier => 'DIRECTV ECARE DEV',
+  :export_method => 'ad-hoc',
+}
+
+ANDROID_CONFIG_DEVELOPMENT = {
+  :build_type => 'release',
+  :flavor => 'development',
+  :application_id => 'com.directv.dtvlatam.ecare.dev',
+}
+
+# ************************
+#  Production Variables
+# ************************
+
+IOS_CONFIG_PRODUCTION = {
+  :ios_scheme => ios_scheme,
+  :ios_xcodeproj => ios_xcodeproj,
+  :ios_workspace => ios_workspace,
+  :ios_xcconfig => './ios/DtvSelfCare/envs.production.xcconfig',
+  :ios_bundle_id => 'ar.com.directvla.ecare',
+  :developer_portal_team_id => developer_portal_team_id,
+  :itunes_connect_team_id => itunes_connect_team_id,
+  :itunes_connect_team_name => itunes_connect_team_name,
+  :provisioning_profile_specifier => 'AR eCare App Production',
+  :export_method => 'app-store',
+}
+
+ANDROID_CONFIG_PRODUCTION = {
+  :build_type => 'release',
+  :flavor => 'production',
+  :application_id => 'ar.com.directvla.ecare',
+}
+
+default_platform :android
+
+# ************************
+#  Android
+# ************************
+
+platform :android do
+  desc 'Build Development version'
+  lane :development do |options|
+    build_android(ANDROID_CONFIG_DEVELOPMENT)
+  end
+
+  desc 'Build Production version'
+  lane :production do |options|
+    build_android(ANDROID_CONFIG_PRODUCTION)
+  end
+  
+  after_all do |lane, options|
+    apk_path = lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]
+    # The variable is named FASTLANE_BUILD_PATH to be consistent with iOS
+    puts "Exposing .apk path as env FASTLANE_BUILD_PATH with value #{apk_path}"
+    system( "envman add --key FASTLANE_BUILD_PATH --value #{apk_path} --no-expand" )
+    
+    aab_path = lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]
+    puts "Exposing .aab path as env FASTLANE_AAB_PATH with value #{aab_path}"
+    system( "envman add --key FASTLANE_AAB_PATH --value #{aab_path} --no-expand" )
+  end
+end
+
+# ************************
+#  iOS
+# ************************
+
+platform :ios do
+  desc 'Build Development version'
+  lane :development do |options|
+    # cocoapods(podfile: podfile)
+    build_ios(IOS_CONFIG_DEVELOPMENT)
+  end
+  
+  desc 'Build Production version and publish to TestFlight'
+  lane :production do |options|
+    # cocoapods(podfile: podfile)
+    build_ios(IOS_CONFIG_PRODUCTION)
+    testflight(
+      skip_waiting_for_build_processing: true,
+      ipa: lane_context[SharedValues::IPA_OUTPUT_PATH] # required since we are using a custom build dir
+    )
+  end
+
+  after_all do |lane, options|
+    ipa_path = lane_context[SharedValues::IPA_OUTPUT_PATH]
+    # The variable is named FASTLANE_BUILD_PATH to be consistent with Android
+    puts "Exposing build path as FASTLANE_BUILD_PATH env variable: #{ipa_path}"
+    system( "envman add --key FASTLANE_BUILD_PATH --value #{ipa_path} --no-expand" )
+  end
+end

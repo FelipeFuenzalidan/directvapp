@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Running own postinstall script"
+
+if [ ! -f "$(pwd)/.env" ]; then
+  echo "Missing .env file. Creating one from template..."
+  cp "$(pwd)/.env.example" "$(pwd)/.env"
+fi
+
+if [ ! -f "$(pwd)/ios/Pods/Manifest.lock" ]; then
+  echo "$(tput setaf 1)"
+  echo "IMPORTANT:"
+  echo "=========="
+  echo "Make sure you have Cocoapods installed, then run:"
+  echo "pod install --repo-update --project-directory=$(pwd)/ios --verbose"
+  echo "$(tput sgr0)"
+fi

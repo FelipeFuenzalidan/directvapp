@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+      "mcs/*": ["external_node_modules/mcs/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

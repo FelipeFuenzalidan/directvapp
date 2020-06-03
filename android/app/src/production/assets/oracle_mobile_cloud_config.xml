@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+
+    <!-- set this when authenticationType below is oauth-->
+    <oAuthTokenEndPoint>https://idcs-3ef41a29e16c480ba63f9bfc16d76240.identity.oraclecloud.com/oauth2/v1/token</oAuthTokenEndPoint>
+
+    <!--Set it true if you want to get logging information in Logger-->
+    <enableLogger>true</enableLogger>
+
+    <!--Here are the settings for a single mobileBackend-->
+
+    <mobileBackend>
+
+        <!--Add the name of your mobileBackend as value here-->
+        <name>TEST_MB</name>
+
+        <!--The base URL goes here-->
+        <baseUrl>https://3BC47CF3C3524C519DAC47FF23CF101E.mobile.ocp.oraclecloud.com:443</baseUrl>
+
+        <!--Set it true if you want to get analytics information from UI-->
+        <enableAnalytics>true</enableAnalytics>
+
+        <!--Set it true if you want to get location information along with analytics from UI-->
+        <enableAnalyticsLocation>false</enableAnalyticsLocation>
+
+        <!--Set it true if you want to enable Offline Analytics-->
+        <enableOfflineAnalytics>true</enableOfflineAnalytics>
+
+        <!--connection timeout value in seconds-->
+        <!--<networkConnectionTimeout>CONNECTION_TIMEOUT</networkConnectionTimeout>-->
+
+        <!--Add the OAuth Service and secret here -->
+        <!--To get the oAuthClientId and oAuthClientSecret, you may go to MCS UI-> Development->
+        MobileBackend->Settings -->
+        <authentication>
+
+            <!-- authenticationType goes here set it to basic or oauth-->
+            <type>basic</type>
+
+            <!-- set these when authenticationType above is basic-->
+            <basic>
+                <mobileBackendId>65610ae7-2691-4b44-8c0a-21955009f38f</mobileBackendId>
+                <anonymousKey>U19SR19QUkRfRUNNT0JGVEQ6QWxUUm9TTiRTdw==</anonymousKey>
+
+                <!-- Set this to true/false to enabled/disable offline login-->
+                <enableOffline>false</enableOffline>
+            </basic>
+
+        </authentication>
+
+    </mobileBackend>
+
+</config>

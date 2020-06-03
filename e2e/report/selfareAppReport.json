@@ -1,0 +1,270 @@
+[
+  {
+    "description": "    Login Test for prepaid and postpaid users",
+    "keyword": "Feature",
+    "name": "Login Test",
+    "line": 2,
+    "id": "login-test",
+    "tags": [
+      {
+        "name": "@LoginTest",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/login.feature",
+    "elements": [
+      {
+        "id": "login-test;login-test-with-wrong-password-for-the-prepaid-and-postpaid-user",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login test with wrong password for the prepaid and postpaid user",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/features/support/init.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1466000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I login the \"posact1@gmail.com\" and \"password\" for the \"postpaid\" user",
+            "match": {
+              "location": "e2e/features/steps/loginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I verify that the message is displayed",
+            "match": {
+              "location": "e2e/features/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e/features/support/init.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test;login-test-with-wrong-password-for-the-prepaid-and-postpaid-user",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login test with wrong password for the prepaid and postpaid user",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/features/support/init.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I login the \"preact2@gmail.com\" and \"password\" for the \"prepaid\" user",
+            "match": {
+              "location": "e2e/features/steps/loginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9902000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I verify that the message is displayed",
+            "match": {
+              "location": "e2e/features/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e/features/support/init.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test;login-test-for-prepaid-and-postpaid-user",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Login test for prepaid and postpaid user",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/features/support/init.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I login the \"posact1@gmail.com\" and \"posact1\" for the \"postpaid\" user",
+            "match": {
+              "location": "e2e/features/steps/loginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I verify the login is successful",
+            "match": {
+              "location": "e2e/features/steps/loginSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1904000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e/features/support/init.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test;login-test-for-prepaid-and-postpaid-user",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Login test for prepaid and postpaid user",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/features/support/init.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I login the \"preact2@gmail.com\" and \"preact\" for the \"prepaid\" user",
+            "match": {
+              "location": "e2e/features/steps/loginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I verify the login is successful",
+            "match": {
+              "location": "e2e/features/steps/loginSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1930000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e/features/support/init.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

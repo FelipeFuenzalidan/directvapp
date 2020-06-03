@@ -1,0 +1,2092 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Outline with text 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#1B2C5D",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderColor": "#FFFFFF",
+          "borderRadius": 5,
+          "borderWidth": 2,
+          "height": 48,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        disabled={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "DIRECTVCurve-Medium",
+              "fontSize": 16,
+              "textAlign": "center",
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+      >
+        Transparent Button
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Button With text 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#1B2C5D",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#005993",
+          "borderColor": "#E53935",
+          "borderRadius": 5,
+          "borderWidth": 0,
+          "height": 48,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        disabled={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "DIRECTVCurve-Medium",
+              "fontSize": 16,
+              "textAlign": "center",
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+      >
+        Base Button
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Card Simple 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#CFD8DC",
+          "justifyContent": "center",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View
+      backgroundColor="#FFFFFF"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "transparent",
+            "borderRadius": 8,
+            "elevation": 3,
+            "paddingHorizontal": 20,
+            "paddingVertical": 20,
+            "shadowColor": "#292929",
+            "shadowOpacity": 0.2,
+            "shadowRadius": 6,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 10,
+            "left": 10,
+            "right": 10,
+            "top": 10,
+          }
+        }
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#292929",
+                  "fontFamily": "DIRECTVCurve-Medium",
+                  "fontSize": 20,
+                  "paddingLeft": 16,
+                },
+              ]
+            }
+            titleColor="#292929"
+          >
+            This is a simple card
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 10,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Card With Defined BackgroundColor 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#CFD8DC",
+          "justifyContent": "center",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View
+      backgroundColor="#E53935"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#E53935",
+            "borderColor": "transparent",
+            "borderRadius": 8,
+            "elevation": 3,
+            "paddingHorizontal": 20,
+            "paddingVertical": 20,
+            "shadowColor": "#292929",
+            "shadowOpacity": 0.2,
+            "shadowRadius": 6,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 10,
+            "left": 10,
+            "right": 10,
+            "top": 10,
+          }
+        }
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/images/invoice.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 24,
+                  "width": 24,
+                },
+                Object {
+                  "tintColor": undefined,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#292929",
+                  "fontFamily": "DIRECTVCurve-Medium",
+                  "fontSize": 20,
+                  "paddingLeft": 16,
+                },
+              ]
+            }
+            titleColor="#292929"
+          >
+            This is a simple card
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 10,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Card With Expanded Functionality 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#CFD8DC",
+          "justifyContent": "center",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View
+      backgroundColor="#FFFFFF"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "transparent",
+            "borderRadius": 8,
+            "elevation": 3,
+            "paddingHorizontal": 20,
+            "paddingVertical": 20,
+            "shadowColor": "#292929",
+            "shadowOpacity": 0.2,
+            "shadowRadius": 6,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 10,
+            "left": 10,
+            "right": 10,
+            "top": 10,
+          }
+        }
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/images/invoice.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 24,
+                  "width": 24,
+                },
+                Object {
+                  "tintColor": "#E53935",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#E53935",
+                  "fontFamily": "DIRECTVCurve-Medium",
+                  "fontSize": 20,
+                  "paddingLeft": 16,
+                },
+              ]
+            }
+            titleColor="#E53935"
+          >
+            This is a simple card
+          </Text>
+        </View>
+        <Image
+          arrowColor="#E53935"
+          source={
+            Object {
+              "testUri": "../../../src/images/caret-down.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "tintColor": "#E53935",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Card With Footer Button 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#CFD8DC",
+          "justifyContent": "center",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View
+      backgroundColor="#FFFFFF"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "transparent",
+            "borderRadius": 8,
+            "elevation": 3,
+            "paddingHorizontal": 20,
+            "paddingVertical": 20,
+            "shadowColor": "#292929",
+            "shadowOpacity": 0.2,
+            "shadowRadius": 6,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 10,
+            "left": 10,
+            "right": 10,
+            "top": 10,
+          }
+        }
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/images/invoice.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 24,
+                  "width": 24,
+                },
+                Object {
+                  "tintColor": undefined,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#292929",
+                  "fontFamily": "DIRECTVCurve-Medium",
+                  "fontSize": 20,
+                  "paddingLeft": 16,
+                },
+              ]
+            }
+            titleColor="#292929"
+          >
+            This is a simple card
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 10,
+            },
+          ]
+        }
+      >
+        <View>
+          <Text>
+            HOLA
+          </Text>
+          <Text>
+            TESTING
+          </Text>
+          <Text>
+            LOS
+          </Text>
+          <Text>
+            CHILDREN
+          </Text>
+        </View>
+        <View
+          footerAlignment="flex-end"
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "marginTop": 16,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CFD8DC",
+                  "height": 1,
+                  "marginBottom": 16,
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            hitSlop={
+              Object {
+                "bottom": 10,
+                "left": 10,
+                "right": 10,
+                "top": 10,
+              }
+            }
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#005993",
+                "borderColor": "transparent",
+                "borderRadius": 5,
+                "borderWidth": 0,
+                "display": "flex",
+                "height": 32,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 126,
+              }
+            }
+          >
+            <Text
+              disabled={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "DIRECTVCurve-Medium",
+                    "fontSize": 16,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              Ver más
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Card With Icon 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#CFD8DC",
+          "justifyContent": "center",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View
+      backgroundColor="#FFFFFF"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "transparent",
+            "borderRadius": 8,
+            "elevation": 3,
+            "paddingHorizontal": 20,
+            "paddingVertical": 20,
+            "shadowColor": "#292929",
+            "shadowOpacity": 0.2,
+            "shadowRadius": 6,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 10,
+            "left": 10,
+            "right": 10,
+            "top": 10,
+          }
+        }
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/images/invoice.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 24,
+                  "width": 24,
+                },
+                Object {
+                  "tintColor": "#1B2C5D",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#292929",
+                  "fontFamily": "DIRECTVCurve-Medium",
+                  "fontSize": 20,
+                  "paddingLeft": 16,
+                },
+              ]
+            }
+            titleColor="#292929"
+          >
+            This is a simple card
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginTop": 10,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots CompactButton Compartir Transparente 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#BABABA",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "paddingHorizontal": 40,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderColor": "#005993",
+          "borderRadius": 5,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "space-between",
+          "opacity": 1,
+          "paddingHorizontal": 20,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <Image
+          outline={true}
+          source={
+            Object {
+              "testUri": "../../../src/images/share.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 23,
+                "tintColor": "#005993",
+                "width": 23,
+              },
+            ]
+          }
+        />
+        <Text
+          outline={true}
+          style={
+            Array [
+              Object {
+                "color": "#005993",
+                "fontFamily": "DIRECTVCurve-Regular",
+                "fontSize": 14,
+                "paddingBottom": 10,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Descargar o compartir la factura
+        </Text>
+      </View>
+      <Image
+        outline={true}
+        source={
+          Object {
+            "testUri": "../../../src/images/caret-right.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 10,
+              "tintColor": "#005993",
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots CompactButton Quejas 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#BABABA",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "paddingHorizontal": 40,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "transparent",
+          "borderRadius": 5,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "space-between",
+          "opacity": 1,
+          "paddingHorizontal": 20,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <Image
+          outline={false}
+          source={
+            Object {
+              "testUri": "../../../src/images/whatsapp.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 23,
+                "tintColor": "#00AEEF",
+                "width": 23,
+              },
+            ]
+          }
+        />
+        <Text
+          outline={false}
+          style={
+            Array [
+              Object {
+                "color": "#00AEEF",
+                "fontFamily": "DIRECTVCurve-Regular",
+                "fontSize": 14,
+                "paddingBottom": 10,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Tengo una duda con mi factura
+        </Text>
+      </View>
+      <Image
+        outline={false}
+        source={
+          Object {
+            "testUri": "../../../src/images/caret-right.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 10,
+              "tintColor": "#00AEEF",
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots CompactButton Ver facturas 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#BABABA",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "paddingHorizontal": 40,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "transparent",
+          "borderRadius": 5,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "space-between",
+          "opacity": 1,
+          "paddingHorizontal": 20,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <Image
+          outline={false}
+          source={
+            Object {
+              "testUri": "../../../src/images/invoice.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 23,
+                "tintColor": "#00AEEF",
+                "width": 23,
+              },
+            ]
+          }
+        />
+        <Text
+          outline={false}
+          style={
+            Array [
+              Object {
+                "color": "#00AEEF",
+                "fontFamily": "DIRECTVCurve-Regular",
+                "fontSize": 14,
+                "paddingBottom": 10,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Ver facturas anteriores
+        </Text>
+      </View>
+      <Image
+        outline={false}
+        source={
+          Object {
+            "testUri": "../../../src/images/caret-right.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 10,
+              "tintColor": "#00AEEF",
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots IconTextCard Simple 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#CFD8DC",
+          "justifyContent": "center",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View
+      backgroundColor="#FFFFFF"
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "transparent",
+            "borderRadius": 8,
+            "elevation": 3,
+            "flexDirection": "row",
+            "paddingHorizontal": 15,
+            "paddingVertical": 20,
+            "shadowColor": "#292929",
+            "shadowOpacity": 0.2,
+            "shadowRadius": 6,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        iconColor="#FFFFFF"
+        source={
+          Object {
+            "testUri": "../../../src/images/invoice.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "tintColor": "#FFFFFF",
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#292929",
+              "fontFamily": "DIRECTVCurve-Regular",
+              "fontSize": 16,
+              "marginLeft": 20,
+            },
+          ]
+        }
+        textColor="#292929"
+      >
+        EL numero de tu tarjeta prepago es: 0000000923885
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots IconTextCard With different background Color 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#CFD8DC",
+          "justifyContent": "center",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View
+      backgroundColor="#E53935"
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E53935",
+            "borderColor": "transparent",
+            "borderRadius": 8,
+            "elevation": 3,
+            "flexDirection": "row",
+            "paddingHorizontal": 15,
+            "paddingVertical": 20,
+            "shadowColor": "#292929",
+            "shadowOpacity": 0.2,
+            "shadowRadius": 6,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        iconColor="#FFFFFF"
+        source={
+          Object {
+            "testUri": "../../../src/images/invoice.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "tintColor": "#FFFFFF",
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#292929",
+              "fontFamily": "DIRECTVCurve-Regular",
+              "fontSize": 16,
+              "marginLeft": 20,
+            },
+          ]
+        }
+        textColor="#292929"
+      >
+        EL numero de tu tarjeta prepago es: 0000000923885
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots IconTextCard With different content Color 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#CFD8DC",
+          "justifyContent": "center",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <View
+      backgroundColor="#E53935"
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E53935",
+            "borderColor": "transparent",
+            "borderRadius": 8,
+            "elevation": 3,
+            "flexDirection": "row",
+            "paddingHorizontal": 15,
+            "paddingVertical": 20,
+            "shadowColor": "#292929",
+            "shadowOpacity": 0.2,
+            "shadowRadius": 6,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        iconColor="#FFFFFF"
+        source={
+          Object {
+            "testUri": "../../../src/images/invoice.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "tintColor": "#FFFFFF",
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "DIRECTVCurve-Regular",
+              "fontSize": 16,
+              "marginLeft": 20,
+            },
+          ]
+        }
+        textColor="#FFFFFF"
+      >
+        EL numero de tu tarjeta prepago es: 0000000923885
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Invoice DropDown Item default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 400,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginVertical": 5,
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "width": "93%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <Text
+            color="#00AEEF"
+            style={
+              Array [
+                Object {
+                  "color": "#00AEEF",
+                  "fontFamily": "DIRECTVCurve-Medium",
+                  "fontSize": 15,
+                  "textTransform": "uppercase",
+                },
+              ]
+            }
+          >
+            Directv HD Oro Plus HD
+          </Text>
+          <Text
+            color="#00AEEF"
+            style={
+              Array [
+                Object {
+                  "color": "#00AEEF",
+                  "fontFamily": "DIRECTVCurve-Medium",
+                  "fontSize": 15,
+                  "textTransform": "uppercase",
+                },
+              ]
+            }
+          >
+            $2910,00
+          </Text>
+        </View>
+        <Image
+          color="#00AEEF"
+          source={
+            Object {
+              "testUri": "../../../src/images/caret-down.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 20,
+                "marginLeft": 5,
+                "tintColor": "#00AEEF",
+                "width": 20,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Invoice Item default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 400,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginVertical": 5,
+            "width": "93%",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "DIRECTVCurve-Regular",
+              "fontSize": 15,
+              "lineHeight": 25,
+              "maxWidth": "55%",
+            },
+          ]
+        }
+      >
+        Directv HD Oro Plus HD
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "DIRECTVCurve-Regular",
+              "fontSize": 15,
+              "lineHeight": 25,
+              "maxWidth": "55%",
+            },
+          ]
+        }
+      >
+        $2910,00
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Invoice Offers default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ECEFF1",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "DIRECTVCurve-Medium",
+            "fontSize": 20,
+            "paddingBottom": 10,
+          },
+        ]
+      }
+    >
+      subtitles.expiration
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "DIRECTVCurve-Regular",
+              "fontSize": 15,
+            },
+          ]
+        }
+      >
+        Upgrade HD Cliente Mix
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "DIRECTVCurve-Regular",
+              "fontSize": 15,
+            },
+          ]
+        }
+      >
+        01/01/2100
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "DIRECTVCurve-Regular",
+              "fontSize": 15,
+            },
+          ]
+        }
+      >
+        HBD Mfee 1 $0 Eev905
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "DIRECTVCurve-Regular",
+              "fontSize": 15,
+            },
+          ]
+        }
+      >
+        28/05/2020
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Invoice Total Item default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 400,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "DIRECTVCurve-Medium",
+              "fontSize": 15,
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+      >
+        total
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "DIRECTVCurve-Medium",
+              "fontSize": 15,
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+      >
+        $3155,00
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Throttled Button with different throttle interval 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFC60B",
+            },
+          ]
+        }
+      >
+        With 5 seconds of throttle
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Throttled Button with testID 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="some-test-id"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFC60B",
+            },
+          ]
+        }
+      >
+        With test ID
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Throttled Button with text 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFC60B",
+            },
+          ]
+        }
+      >
+        Hello Storybook
+      </Text>
+    </View>
+  </View>
+</View>
+`;

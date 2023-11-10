@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@react-native-community/async-storage": "1.8.0",
-    "axios": "0.19.2",
+    "axios": "1.6.0",
     "axios-auth-refresh": "2.2.4",
     "color": "3.1.2",
     "country-code-emoji": "1.0.0",
